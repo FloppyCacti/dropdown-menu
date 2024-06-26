@@ -1,6 +1,5 @@
 // Switch .dropdown-menu-container visibility (hidden and visible) depending on its current visibility
 // Switch happens when div .dropdown-menu-button-click is clicked
-<<<<<<< HEAD
 const dropdownClick = document.querySelectorAll('.dropdown-menu-button-click').forEach((ele, index) => {
     ele.addEventListener('click', () => {
     const dropdownMenu = document.querySelectorAll('.dropdown-menu-container-click')[index];
@@ -40,7 +39,6 @@ const dropdownHover = document.querySelectorAll('.dropdown-menu-button-hover').f
         });
     });
 });
-=======
 exports.addClickableMenu = () => {
     const dropdownClick = document.querySelectorAll('.dropdown-menu-button-click').forEach((ele, index) => {
         ele.addEventListener('click', () => {
@@ -84,4 +82,3 @@ exports.addHoverableMenu = () => {
         });
     });
 }
->>>>>>> master
